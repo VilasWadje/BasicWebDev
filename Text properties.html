@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text properties</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee:wght@300&family=Secular+One&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        /* text decoration property */
+        .first{
+            background-color: aquamarine;
+            width: 385px;
+            height: 100px;
+            /* height and width applied/work */
+            display: inline-block;
+
+            /* text align */
+            text-align: center;
+
+            /* text decoration */
+            text-decoration:line-through underline overline rgb(232, 17, 17) dashed  ;
+
+            text-transform: uppercase;
+        }
+
+        /* text transform property */
+        .second{
+            width: 385px;
+            height: 100px;
+            background-color: antiquewhite;
+            /* height and width cant applied/work */
+            display: inline-block;
+
+            /* text-transform: ; */
+             text-transform: capitalize;
+        }
+
+        /* line height property */
+        .third{
+            width: 385px;
+            height: 100px;
+            background-color: rgb(97, 118, 72);
+            display: inline-block;
+           
+            /* text-transform: ; */
+            text-transform: capitalize;
+
+            /* line-height: ; */
+            /* line-height: 35px;/ */
+        }
+
+        /* font  */
+        .fourth{
+            width: 385px;
+            height: 100px;
+            background-color: rgb(185, 245, 32);
+            display: inline-block;
+            /* font-size: 10px; */
+             font-family: 'Secular One', sans-serif;
+            font-weight: bolder;
+            font-style:oblique ;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="first">pqr</div><div class="second">abc</div><div class="third">xyz Lorem ipsum dolor sit amet, condddds </div><div class="fourth">xyz Lorem ipsum dolor sit !</div>
+    </div>
+
+</body>
+</html>

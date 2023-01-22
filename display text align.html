@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter4</title>
+    <style>
+        .first{
+            background-color: aquamarine;
+            width: 385px;
+            height: 100px;
+            /* height and width applied/work */
+            display: inline-block;
+
+            /* text align */
+            text-align: center;
+        }
+
+        .second{
+            width: 385px;
+            height: 100px;
+            background-color: antiquewhite;
+            /* height and width cant applied/work */
+            display: inline;
+        }
+
+        .third{
+            width: 385px;
+            height: 100px;
+            background-color: rgb(182, 229, 41);
+            display: block;
+            text-align: right;
+        }
+
+        .fourth{
+            background-color: rgb(3, 75, 51);
+            width: 100px;
+            height: 100px;
+            display: inline;
+           /* if display=none then the element can not be displayed and its space is not reserved */
+            /* display: none; */
+
+            /* if visibility:hidden; then the element can not be displayed and but its space is reserved */
+            visibility:hidden;
+        }
+
+        .fifth{
+            background-color: rgb(131, 225, 193);
+            width: 100px;
+            height: 100px;
+            /* height and width applied/work */
+            display: inline-block;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="first">pqr</div>
+    <div class="second">abc</div>
+    <div class="third">xyz</div>
+    <div class="fourth">jkl</div>
+    <div class="fifth">fifth</div>
+</body>
+</html>
